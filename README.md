@@ -1,5 +1,8 @@
 copy checkSyncStatus_template.sh to checkSyncStatus.sh
 Update the checkSyncStatus.sh with your phone number and the validators you are running
+Can send text to mutiple people who are running different validators by adding new line
+and each is read in and people will only be notified if their validators are in [current|next}
+sync committee.
 Verizon: use phone#@vtext.com
 AT&T:    use phone#@att.net
 Do a google search for other carriers
