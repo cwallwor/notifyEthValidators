@@ -10,6 +10,6 @@ You will need to set up a mail server on your machine that will allow you to cal
 Make sure the *.sh files are executable
 
 to run this use command:
-sh ./syncCommittee.sh 526652 563678 644556 644558
+./checkSyncStatus.sh
 
 Uncomment the line in syncCommittee.sh search_committee() to see list of current and next valiaators. To test: add some of these validators to checkSyncStatus.sh to validate everything is set up right.
